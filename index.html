@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Data Barang</title>
+</head>
+<body>
+    <h2>Input Data Barang</h2>
+    <form action="procces.php" method="post">
+        <label for="nama_merk">Nama Merk:</label><br>
+        <input type="text" id="nama_merk" name="nama_merk"><br>
+        <label for="warna">Warna:</label><br>
+        <input type="text" id="warna" name="warna"><br>
+        <label for="jumlah">Jumlah:</label><br>
+        <input type="number" id="jumlah" name="jumlah"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <h2>Data Barang</h2>
+    <?php include 'display.php'; ?>
+</body>
+</html>
